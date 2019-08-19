@@ -11,5 +11,6 @@ public class SubmitTest {
         System.out.println("第一次提交GitHub测试类");
         System.out.println("第二次提交GitHub测试类修改");
         System.out.println("第三次提交GitHub测试类修改");
+        System.out.println("第四次提交GitHub测试类修改");
     }
 }
