@@ -28,4 +28,25 @@ public class SortMethod {
             System.out.print(i+"\t");
         }
     }
+    //插入排序
+    public static void insertSort(int arr[]) {
+        int i;
+        int j;
+        int n=arr.length;
+        //外层循环，控制循环总次数
+        for (i=1;i<n;i++) {
+            //临时变量，存储需要插入的数字，以便空出空位置。让比临时变量大的数字后退。
+            int temp = arr[i];
+            //内层循环，控制比临时变量大的数字后退。
+            for (j=i-1;j>=0&&arr[j]>n;j--) {
+                //数字后退，
+                //（比临时变量大的数字向后退，同时因为临时变量已经存储到了temp中，所以等于空出了一个位置）
+                arr[j+1]=arr[j];
+            }
+            arr[j+1]=temp;
+        }
+        for (int i1 : arr) {
+            System.out.print(i1+"\t");
+        }
+    }
 }
