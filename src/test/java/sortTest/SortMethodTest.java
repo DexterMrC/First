@@ -1,6 +1,6 @@
-package sortTest;
+package sortTest; 
 
-import org.junit.Test; 
+import org.junit.Test;
 import org.junit.Before; 
 import org.junit.After; 
 
@@ -8,7 +8,7 @@ import org.junit.After;
 * SortMethod Tester. 
 * 
 * @author <Authors name> 
-* @since <pre>°ËÔÂ 22, 2019</pre> 
+* @since <pre>°ËÔÂ 23, 2019</pre> 
 * @version 1.0 
 */ 
 public class SortMethodTest { 
@@ -39,7 +39,7 @@ public void testSelectSort() throws Exception {
 @Test
 public void testInsertSort() throws Exception { 
 //TODO: Test goes here...
-    int arr[] = {8,7,6,9,5,4,2,0,1,3};
+    int arr[] = {8,4,9,0,5,3,1,7,6,2};
     SortMethod.insertSort(arr);
 } 
 
