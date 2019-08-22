@@ -2,7 +2,7 @@ package sortTest;
 
 /**
  * @ClassName :SortMethod
- * @Description :
+ * @Description :各种排序算法，算是个逐渐添加的记录类
  * @Author :DexterMrC
  * @Date :2019/8/19 19:24
  **/
@@ -38,7 +38,7 @@ public class SortMethod {
             //临时变量，存储需要插入的数字，以便空出空位置。让比临时变量大的数字后退。
             int temp = arr[i];
             //内层循环，控制比临时变量大的数字后退。
-            for (j=i-1;j>=0&&arr[j]>n;j--) {
+            for (j=i-1;j>=0&&arr[j]>temp;j--) {
                 //数字后退，
                 //（比临时变量大的数字向后退，同时因为临时变量已经存储到了temp中，所以等于空出了一个位置）
                 arr[j+1]=arr[j];
