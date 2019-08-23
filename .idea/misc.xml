@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../GitHubUnup" />
+    <file type="web" url="file://$PROJECT_DIR$/../unup" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

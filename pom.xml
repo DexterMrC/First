@@ -24,6 +24,9 @@
   <packaging>pom</packaging>
 
   <name>First</name>
+  <modules>
+    <module>../unup</module>
+  </modules>
   <groupId>GitHubTest</groupId>
   <artifactId>First</artifactId>
   <version>1.0-SNAPSHOT</version>
