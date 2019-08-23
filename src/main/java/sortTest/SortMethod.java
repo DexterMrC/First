@@ -28,6 +28,26 @@ public class SortMethod {
             System.out.print(i+"\t");
         }
     }
+    //冒泡排序
+    public static void BomSort(int arr[]) {
+        for (int i=0;i<arr.length-1;i++) {
+            for (int j=0;j<arr.length-i-1;j++) {
+                if (arr[j]>arr[j+1]) {
+                    arr[j]= arr[j]^arr[j+1];
+                    arr[j+1]= arr[j]^arr[j+1];
+                    arr[j]= arr[j]^arr[j+1];
+                }
+            }
+            for (int i1 : arr) {
+                System.out.print(i1+"\t");
+            }
+            System.out.println();
+        }
+        for (int i : arr) {
+            System.out.print(i+"\t");
+        }
+
+    }
     //插入排序
     public static void insertSort(int arr[]) {
         int i;
